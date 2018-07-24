@@ -44,7 +44,7 @@ public class BucarCepImplPresenter implements BuscarCepPresenter.PresenterImpl {
                             buscarCepActivity.mostrarAlertComCepInvalido();
                         }
 
-                    } else if (response.code() == 404)  {
+                    } else if (response.code() == 404 )  {
                         progressDoalog.dismiss();
                         buscarCepActivity.mostrarAlertComCepInvalido();
 
